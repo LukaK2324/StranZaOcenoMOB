@@ -1,0 +1,257 @@
+html,body{
+	margin:0;
+	padding:0;
+	font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+ }
+body{
+	background:url('./Slike/ozadje2.jpg') no-repeat center;
+
+}
+#Okvir{
+	margin:0 auto 0 auto;
+	width:950px;
+	height:auto;
+
+
+}
+#ZgornjaPasica{
+	height:50px;
+	width:1000px;
+	background-color:orange;
+	display:flex;
+	flex-wrap:nowrap;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.Logo{
+	margin-left:var(--rob);
+	width:52px;
+	height:50px;
+}
+#FacebookInstagram{
+	margin-right:var(--rob);
+	display:flex;
+	flex-wrap:nowrap;
+	flex-direction:row;
+	align-items:center;
+}
+#FacebookInstagram a{
+	margin-top:3px;
+	margin-left:25px;
+}
+#FacebookInstagram p{
+	font-size:15px;
+	margin-left:60px;
+	margin-bottom:45px;
+}
+#Glava{
+	background-image:url('./Slike/glava.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	width:1000px;
+	height:150px;
+	background-position:center;
+}
+#Navigacija{
+	width:1000px;
+	height:40px;
+	background-color:orange;
+	
+}
+#Navigacija ul{
+	display:flex;
+	flex-direction:row;
+	list-style-type:none;
+	padding-top:11px;
+	margin:0;
+	justify-content:space-between;
+	flex-wrap:nowrap;
+	padding-right:35px;
+	padding-left:35px;
+}
+#Navigacija a:link, 
+#Navigacija a:visited, 
+#Navigacija a:hover,
+#Navigacija a:active{
+	font-size:15px;
+	font-weight:bold;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	border-bottom:0px;
+	
+	
+}
+#Navigacija a:hover,
+#Navigacija a:active{
+	background-color:red;
+	padding:11px;
+	transition:background-color .5s ease;
+}
+p{
+	color:white;
+	font-size:13px;
+
+}
+h1{
+	font-size:30px;
+	color:yellow;
+	font-weight:bold;
+	margin-top:10px;
+}
+#Vsebina{
+	min-height: 375px;
+	width: 1000px; 
+	display:flex;
+	flex-wrap:nowrap;
+	align-items:flex-start;
+	background-color:red;
+}
+#Sorodno{
+    display:block;
+	height: 350px;
+	width: 550px;
+
+}
+.SorodnoSlika{
+	float:right;
+}
+#Noga {
+	width:1000px;
+	height:30px;
+	color:white;
+	text-align:center;
+	background-color:orange;
+	margin-top:5px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius:15px;
+}
+#Noga a:hover{
+	text-decoration:line-through;
+}
+#Noga a:active{
+	color:yellow;
+}
+.album{
+	width:130px;
+	height:130px;
+	margin-left:50px;
+	margin-top:50px;
+}
+#SorodnoAlbumi{
+	align-items:right;
+}
+ul {list-style-type: none;}
+
+.mesec {
+  padding: 70px 25px;
+  width: 100%;
+  background: white;
+  text-align: center;
+}
+.mesec ul {
+  margin: 0;
+  padding: 0;
+}
+
+.mesec ul li {
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight:bold;
+}
+.tedendnevi {
+  margin: 0;
+  padding: 10px 25px;
+  background-color:white;
+  width:100%;
+}
+
+.tedendnevi li {
+  display: inline-block;
+  width: 13.6%;
+  color: black;
+  text-align: center;
+  font-weight:bold;
+}
+.dnevi {
+  padding: 40px 25px;
+  background: yellow;
+  margin: 0;
+  width:100%;
+}
+
+.dnevi li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: black;
+
+}
+
+.dnevi li .active {
+  padding: 5px;
+  background: orange;
+  color: black 
+}
+#SorodnoKoncerti{
+	display:block;
+	height:300px;
+	width:200px;
+	background-color:black;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	margin-left:210px;
+	margin-top:45px;
+	letter-spacing:3px;
+}
+#SorodnoNovice{
+	width:500px;
+	height:350px;
+}
+.Gorile{
+   margin-left:25px;
+   margin-top:40px;
+   margin-right:25px;
+}
+.SorodnoSlika1{
+	margin-top:40px;
+}
+.memberino{
+	width:130px;
+	height:130px;
+	margin-left:70px;
+	margin-right:70px;
+	padding-top:40px;
+	padding-left:20px;
+
+}
+#SorodnoClani{
+	align-items:center;
+	width:auto;
+	height:auto;
+}
+.Risar{
+	width:130px;
+	height:130px;
+	margin-left:70px;
+	margin-right:70px;
+	padding-top:40px;
+	padding-left:20px;
+	padding-bottom:0px;
+}
+
+
+
+
+
+
+
+

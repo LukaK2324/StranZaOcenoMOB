@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+	<meta charset="utf-8">
+	<title>Novice</title>
+	<meta name="description" content="Okvirji">
+	<meta name="keywords" content="splet,html,css,okvirji">
+	<meta name="author" content="Luka Kutnjak">
+	<meta name="robots" content="index,follow">
+	<link rel="stylesheet" href="slogi.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+	<div id="Okvir">
+		<div id="ZgornjaPasica">
+			<a href="./" title="Domov" target="_self">
+				<img src="./Slike/logo.png" alt="Domov" class="Logo">
+			</a>
+			<div id="FacebookInstagram">
+				<p>Socialna omrežja:</p>
+				<a href="https://www.facebook.com/Gorillaz/" title="Facebook" target="_blank"><img src="Slike/facebook.png"></a>
+				<a href="https://www.instagram.com/gorillaz/" title="Instagram" target="_blank"><img src="Slike/instagram.png"></a>
+			</div>
+		</div>
+		<header id="Glava"></header>
+		<nav id="Navigacija">
+			<ul>
+				<li><a href="./index.html" target="_self" title="Domov">Domov</a></li>
+				<li><a href="./Zgodovina.html" target="_self" title="Zgodovina">Zgodovina</a></li>
+				<li><a href="./Diskografija.html" target="_self" title="Diskografija">Diskografija</a></li>
+				<li><a href="./Clani.html" target="_self" title="Clani">Člani</a></li>
+				<li><a href="./Koncerti.html" target="_self" title="Koncerti">Koncerti</a></li>
+				<li><a href="./Novice.html" target="_self" title="Novice">Novice</a></li>
+			</ul>
+		</nav>
+		<section id="Vsebina">
+			<article id="Artikel">
+				<h2>Tu se lahko prijavite na novice in priložnosti za popuste!</h2>
+					<form Id="Obrazec" action="" method="post" target="_blank">
+						Ime in priimek: 
+						<input type="text" name="ImePriimek" placeholder="Vpišite">
+						<br>
+						Email:
+						<input type="text" name="ePostniNaslov" placeholder="Vpišite">
+						<br>
+						Tel. št.:
+						<input type="text" name="Telefon" placeholder="npr.+386 31 690 420">
+						<br>
+						Izberite količino novic
+						<select name="IzbraniDogodek">
+							<option>Novice in opomniki za koncerte</option>
+							<option>Popusti za trgovsko blago</option>
+							<option>Vse</option>
+						</select>
+						<br>
+						Starost:
+						<input type="text" name="Starost" placeholder="Vpišite">
+						<br>
+						Ali je njihova glasba dobra:
+						<input type="radio" name="Izbira" value="DA" checked>Da
+						<input type="radio" name="Izbira" value="NE" checked>Ne
+						<br>
+						Opombe:
+						<br>
+						<textarea name="VpišiteKomentar" placeholder="Vpišite opombo" cols="40" rows="10"></textarea>
+						<br>
+						<br>
+						<input type="submit" value="Poslji">
+					</form>
+				</article>
+					<aside id="SorodnoNovice">
+						<img src="./Slike/gorillaz.jpg" alt="Gorilice" title="BestZasedba" class="Gorile">
+				    </aside>
+		</section>
+		<footer id="Noga">
+		  |Moja spletna stran je boljša, ampak tu je še ena, malo slabša| <a href="https://www.gorillaz.com" target="_blank">Original</a>
+		</footer>
+	</div>
+	</body>
+</html>
